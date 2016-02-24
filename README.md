@@ -14,8 +14,7 @@ Setup is pretty simple , just need the following  :
 - select create credentials and chose Oauth Client Id from drop down
 - select other on Application Type page, give a name and CREATE!
 - download the generated OAuth 2.0 client IDs ,place to the project root and rename it to client_secret.json (for now)
-> This is a standerd google auth process which is needed for OAuth 2.0 
-> system as OAuth 1.5 is closing down soon!
+This is a standerd google auth process which is needed for OAuth 2.0 system as OAuth 1.5 is closing down soon!
 
 
 Now for running the scripts:
