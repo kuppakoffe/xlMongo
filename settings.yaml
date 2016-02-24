@@ -1,0 +1,24 @@
+# A Sample configuration file
+
+# App related setting
+APP:
+  applicationname: 'doctor_who'  # Name of your application , can be anything
+  basedirectory: '.'  # Place from where all the uploads starts and downloads will be placed, leave as default in case not sure! 
+# Settings related to the DB to be connected and used. In case unsure ,please go with default settings
+
+DATABASE:
+  type: 'mongo'
+  host: 'localhost'  # The host configuration settings
+  port: 27017  # The Mongo port to be used for connection
+#  databases:   # List of databases which will be used for scanning
+#    - pconnect
+
+
+# Settings related to google drive api
+
+DRIVE:
+  scopes:
+    - 'https://www.googleapis.com/auth/drive.file'
+    - 'https://spreadsheets.google.com/feeds'
+  client_secret_file: 'client_secret.json'
+  
